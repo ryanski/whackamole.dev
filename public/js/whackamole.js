@@ -41,7 +41,11 @@ $(".holes").on('click', function(){
 			// container.find('div').flip() <--- doesn't work
 			// container.find('div').effect("shake", 400);
 		}
-		if(hit==3) { hit=0; 
+		// if(hit==3) { hit=0; 
+		// 	container.find('div').hide( "explode", {pieces: 36}, 1200)
+		// }
+
+		if(hit==1) { hit=0; 
 			container.find('div').hide( "explode", {pieces: 36}, 1200)
 		}
 		console.log("You clicked it!")
